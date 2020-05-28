@@ -44,3 +44,12 @@ class TestQtApplication(object):
         assert self.window.kernel[2][0] == 0
         assert self.window.kernel[2][1] == -3
         assert self.window.kernel[2][2] == 0
+
+    def test_convolution(self):
+        """ 畳み込み演算を行い結果を表示する
+         テストフロー:
+          1. tests/sample/substrate.pngを選択
+          2. HightPassFilterを選択
+          3. 畳み込み演算開始ボタンを押す
+        """
+        assert True

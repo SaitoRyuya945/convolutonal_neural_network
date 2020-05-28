@@ -69,6 +69,19 @@ class TestQtApplication(object):
         self.app.exec_()
         assert True
 
+    def test_app_hist(self):
+        # ヒストグラムを表示する
+        self.window.ui.MplGraphWidget.canvas.axes.clear()
+        self.window.ui.MplGraphWidget.canvas.axes.hist(
+                self.gray_array.flatten(), 128)
+        self.window.ui.MplGraphConvoWidget.canvas.axes.clear()
+        self.window.ui.MplGraphConvoWidget.canvas.axes.hist(
+                self.gray_array.flatten(), 128)
+
+        self.window.show()
+        self.app.exec_()
+        assert True
+
     def test_app_open_file(self):
         # ./sample/substrate.pngを選択してみる
         self.window.show()
