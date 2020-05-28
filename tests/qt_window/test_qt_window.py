@@ -9,7 +9,7 @@ from PIL import Image
 class TestQtApplication(object):
     """
     class_name: QtApplication
-    description: 
+    description:
         グラフ表示用のQtアプリのテスト
     """
     def setup_method(self, method):
@@ -59,7 +59,7 @@ class TestQtApplication(object):
         assert True
 
     def test_app_clicked_image(self):
-        # 画像をボタンを押して表示する
+        # 画像を表示する
         self.window.ui.MplImageWidget.canvas.axes.clear()
         self.window.ui.MplImageWidget.canvas.axes.imshow(self.gray_array)
         self.window.ui.MplImageConvoWidget.canvas.axes.clear()
