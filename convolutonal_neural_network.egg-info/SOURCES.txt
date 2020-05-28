@@ -1,6 +1,7 @@
 README.md
 setup.py
 convolutonal_neural_network/__init__.py
+convolutonal_neural_network/cli.py
 convolutonal_neural_network/convolution.py
 convolutonal_neural_network/qt_app.py
 convolutonal_neural_network.egg-info/PKG-INFO

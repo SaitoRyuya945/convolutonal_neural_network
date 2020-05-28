@@ -11,6 +11,6 @@ setup(
     packages=find_packages(),
     entry_points="""
         [console_scripts]
-        convolutonal_neural_network = convolutonal_neural_network.cli.execute
+        convolutonal_neural_network = convolutonal_neural_network.cli:execute
     """,
 )
