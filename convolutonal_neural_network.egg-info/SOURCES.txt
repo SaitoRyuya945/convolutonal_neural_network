@@ -1,3 +1,4 @@
+README.md
 setup.py
 convolutonal_neural_network.egg-info/PKG-INFO
 convolutonal_neural_network.egg-info/SOURCES.txt

@@ -1,6 +1,7 @@
 from convolutonal_neural_network import Convolution
 from PIL import Image
 import numpy as np
+import random
 import pytest
 
 
@@ -68,7 +69,7 @@ class TestImageConvolution(object):
     """
     def setup_method(self, method):
         print('method_start {}:'.format(method.__name__))
-        self.im = Image.open('./tests/sample/substrate.jpg')
+        self.im = Image.open('./tests/sample/substrate.png')
         self.convo = Convolution()
         self.gray_img = self.im.convert('L')
         self.gray_array = np.array(self.gray_img)
