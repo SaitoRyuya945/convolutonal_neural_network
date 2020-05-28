@@ -15,7 +15,7 @@
 
 ## 実行方法
 
-- 実行環境が整っている場合
+- 実行環境が整っている場合  
 convolutonal_neural_networkフォルダの中に入る
 
 ```bash
@@ -24,8 +24,8 @@ python convolutonal_neural_network
 
 を実行する
 
-- 実行環境が整っていない場合
-ダウンロードしていたフォルダのdistで以下のようにライブラリをインストール
+- 実行環境が整っていない場合  
+distフォルダで以下のようにライブラリをインストール
 
 ```bash
 pip install dist/convolutonal_neural_network-1.0.tar.gz
