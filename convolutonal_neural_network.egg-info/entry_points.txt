@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        convolutonal_neural_network = convolutonal_neural_network.cli.execute
+    
