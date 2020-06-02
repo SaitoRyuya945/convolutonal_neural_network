@@ -27,3 +27,8 @@ CLIで以下を実行
 ```bash
 convolutonal_neural_network
 ```
+
+
+### 参考資料
+
+アルゴリズム: https://stackoverflow.com/questions/43086557/convolve2d-just-by-using-numpy
