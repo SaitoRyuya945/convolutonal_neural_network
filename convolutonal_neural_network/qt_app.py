@@ -54,7 +54,7 @@ class MatplotlibWindow(QMainWindow):
             sharp_kernel = lambda k: np.array([[0, -k, 0],
                                                [-k, 1+4*k, -k],
                                                [0, -k, 0]])
-            self.kernel = sharp_kernel(3)
+            self.kernel = sharp_kernel(20)
 
     def update_graph(self):
         if (self.filter_name is not None) and (self.file_name is not None):
